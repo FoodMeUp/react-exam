@@ -13,7 +13,7 @@ To do so we will use the following [API](https://punkapi.com/documentation/v2)
 
 Beer list:
 - Display __all the beers paginated__ with an image, name, volume (you can paginate or use infinite loading)
-- We can __order__ a beer
+- We can __order__ or __remove__ a beer from the cart
 - We can __search__ for a beer
 - We can see if the beer has been __ordered or not__
 - We can navigate to the __beer detail__ and __beer cart__ pages
