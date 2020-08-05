@@ -6,9 +6,9 @@ To do so we will use the following [API](https://punkapi.com/documentation/v2)
 
 ## Rules
 
-You will use __React__, and __Typescript__ (state management technology is up to you: Redux, Swr, React-Query, Recoil, Context, ...)
-There will be 3 pages (__beer list__, __beer detail__, __beer cart__)
-If the page is being reloaded we still have the cart being filled
+- You will use __React__, and __Typescript__ (state management technology is up to you: Redux, Swr, React-Query, Recoil, Context, ...)
+- There will be 3 pages (__beer list__, __beer detail__, __beer cart__)
+- If the page is being reloaded we still have the cart being filled
 
 Beer list:
 - Display __all the beers paginated__ with an image, name, volume (you can paginate or use infinite loading)
