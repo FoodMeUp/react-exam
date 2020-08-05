@@ -1,35 +1,35 @@
 # react-exam
 
-We do love __Beer__ and we want to make an App to order some :beer: !
+We do love __beer__ and we want to make an app to order some :beer: !
 
 To do so we will use the following [API](https://punkapi.com/documentation/v2)
 
 ## Rules
 
-- You will use __React__, and __Typescript__ (state management technology is up to you: Redux, Swr, React-Query, Recoil, Context, ...)
+- You make use of __React__, and __Typescript__. State management technology is up to you: Redux, Swr, React-Query, Recoil, Context, ...
 - For styling you can choose what you want 🎨 
-- There will be 3 pages (__beer list__, __beer detail__, __beer cart__)
-- If the page is being reloaded we still have the cart being filled
+- There are 3 pages (__beer list__, __beer detail__, __beer cart__)
+- When the page is reloaded, the cart remains filled
 
-Beer list:
+Beer list page:
 - Display __all the beers paginated__ with an image, name, volume (you can paginate or use infinite loading)
-- We can __order__ or __remove__ a beer from the cart
-- We can __search__ for a beer
-- We can see if the beer has been __ordered or not__
+- It's possible to __order__ or __remove__ a beer from the cart
+- It's possible to __search__ for a beer
+- We can see if a beer has been __ordered or not__
 - We can navigate to the __beer detail__ and __beer cart__ pages
 
-Beer detail:
-- The beer detail will display detailed informations: image, name, description, volume, ingredients, brewers_tips, and more if you feel the need ;)
+Beer details page:
+- The beer details include the following: image, name, description, volume, ingredients, brewers_tips, and more if you feel the need ;)
 - We can see if the beer has been __ordered or not__
 - We can navigate to the __beer list__ and __beer cart__ pages
 
-Beer cart:
-- Display a simple list of beers contained in the cart with image and name
+Beer cart page:
+- Display a simple list of beers contained in the cart with their image and name
 - We can navigate to the __beer detail__ and __beer list__ pages
 
 ## Bonus feature
 
-- Responsive design (Animations)
-- Implement __tests__ (you can choose your tools: Stoybook, Jest, Cypress, QAWolf, ...)
+- Responsive design (animations)
+- Implement __tests__ (you can choose your stack: Stoybook, Jest, Cypress, QAWolf, ...)
 - Add __linters__
-- The app can run in though __Docker__ environment
+- The app can run in a __docker__ environment
